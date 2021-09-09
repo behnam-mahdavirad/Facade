@@ -6,7 +6,10 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Facade facade = new Facade();
+            facade.DoSomething();
+
+            Console.ReadLine();
         }
     }
 }
